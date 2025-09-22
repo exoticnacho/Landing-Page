@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Alfredo</title>
+    <link rel="stylesheet" href="styles_535240111.css">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <section id="hero">
+            <h1>Carlos Alfredo</h1>
+            <p>Calon Web3 Developer</p>
+            <button onclick="scrollToSection('#education')">Explore</button>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <p><strong>Sekolah Dharma Suci</strong><br>Graduation Year: 2024</p>
+                </div>
+                <div class="card">
+                    <p><strong>Universitas Tarumanagara</strong><br>Major: Teknologi Informatika<br>Period: 2024 - 2028</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <p><strong>Assistant Operational Manager</strong><br>Company: Dapoer Ziso<br>Responsibilities: Assisted in operational tasks including purchasing, storage, and delivery management</p>
+                </div>
+                <div class="card">
+                    <p><strong>Social Media Team Leader</strong><br>Company: CGI<br>Responsibilities: Led the team and established KPIs for client projects</p>
+                </div>
+                <div class="card">
+                    <p><strong>Web3 Workshop</strong><br>Company: CoinBase<br>Responsibilities: Participated in project development and builder challenges</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <p><strong>SEO</strong><br>Developed strategies to enhance social media visibility and ranking on search engines.</p>
+                </div>
+                <div class="card">
+                    <p><strong>Solidity</strong><br>Created smart contracts and decentralized applications using Solidity for blockchain solutions.</p>
+                </div>
+                <div class="card">
+                    <p><strong>Laravel</strong><br>Built robust web applications with Laravel, focusing on backend development and API integration.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Carlos Alfredo. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script_535240111.js"></script>
+</body>
+</html>
